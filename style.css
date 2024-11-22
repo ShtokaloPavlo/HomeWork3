@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+}
+
+.cube:first-child {
+    background-color: red;
+}
+
+.cube:nth-child(2) {
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+    left: 125px;
+    top: 125px;
+}
+
+.cube:last-child {
+    background-color: green;
+    position: relative;
+    left: 230px;
+    top: 30px;
+}
